@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "Title": "[eBay] ASUS - 14\" Chromebook - AMD Ryzen 3 7320C CPU- 8GB RAM - 128 GB SSD -14\" FHD display, Wi-Fi 6 with @220 off, for $279!",
+    "Url": "https://bizweb.dktcdn.net/thumb/large/100/372/934/products/z4689293971134-66aee887ccd126cf3f069a24ad904d5a.jpg?v=1694587231757",
+    "Price": 3000,
+    "Instock": 3
+  },
+  {
+    "Id": 2,
+    "Title": "[Walmart] Acer Predator Helios 16 PH16-71-948L; 16\" WQXGA (2560 x 1600) IPS 240Hz NVIDIA G-SYNC 500 nits display, Intel i9-13900HX CPU, NVIDIA RTX 4080 (Max 175W) Graphics, 32GB DDR5 RAM, 1TB SSD, Win11 Home. Now: $2,299.99 After $449 Off",
+    "Url": "https://laptop123.com.vn/index.php?t=ajax&p=tthumb&src=aHR0cHM6Ly9sYXB0b3AxMjMuY29tLnZuL3VwbG9hZC9wcm9kdWN0L2xlbm92by1sZWdpb24tNS1wcm8tMTZhcmg3aC14YW0ucG5n&w=400&h=350&zc=2",
+    "Price": 3500,
+    "Instock": 2
+  },
+  {
+    "Id": 3,
+    "Title": "[Walmart] Acer Nitro 16 AN16-41; AMD Ryzen 7 7735HS CPU, Nvidia GeForce RTX 4070 GPU - 16 GB DDR5 RAM - 512 GB SSD - 16\" 2560 x 1600 (WQXGA) 165 Hz IPS display ,Win 11 Home. Now: $1,299.99 After $200 Off",
+    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/IMG_3080_jd4r-nc.png?t=1691938768",
+    "Price": 3000,
+    "Instock": 6
+  },
+  {
+    "Id": 4,
+    "Title": "[HP Store] (Customized) HP OMEN 16: 16.1\" QHD (2560 x 1440) 16:9, 240Hz, 300-Nits, IPS Display, Ryzen 7 7840HS, RTX 4070, 32GB DDR5, 1TB SSD, Windows 11 Home. Now: $1,475.99 After applying coupon code: \"10GAMER2023\" at checkout.",
+    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/ASUS_ROG15.png?t=1691840104",
+    "Price": 4000,
+    "Instock": 6
+  },
+  {
+    "Id": 5,
+    "Title": "(Amazon) MSI Thin GF63 Gaming Laptop: Intel Core i5-12450H GeForce RTX 2050, 15.6\" FHD, 144Hz, 8GB DDR4, 512GB NVMe SSD, Type-C USB 3.2 Gen 1, Cooler Boost 5, Win 11 Home: Black 12UCX-484US Price: $621.42 Save: 11%",
+    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/asus_g14_1.png?t=1691220991",
+    "Price": 1200,
+    "Instock": 1
+  },
+  {
+    "Id": 6,
+    "Title": "[HP Store] HP Omen Gaming Laptop 16z-xf000; 16.1\", FHD (1920 x 1080), 165Hz, IPS, 300 Nits, AMD Ryzen™ 7 7840HS, NVIDIA® GeForce RTX™ 4060, 16GB DDR5, 512GB SSD, Windows 11 Home. Now: $1,092.49 After $477.50 Off + Using Coupon Code: 5GAMER2023.",
+    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/acer_nitro_2023_5jve-s0.png?t=1695122703",
+    "Price": 3000,
+    "Instock": 1
+  },
+  {
+    "Id": 7,
+    "Title": "[eBay] Certified Refurbished Acer Nitro 17 Gaming Laptop: 17.3\" QHD (2560x1440) 16:9, 165Hz 3ms, 300 Nits, 100% sRGB, IPS Display, Intel i7-13700H, RTX 4060, 16GB DDR5, 1TB SSD, Windows 11 Home. Now: $999.99 After $600 Off + \"2 year warranty by Allstate\".",
+    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/80667827-8F73-4A62-A591-F3E1C64F750B.png?t=1686126141",
+    "Price": 1600,
+    "Instock": 0
+  },
+  {
+    "Id": 8,
+    "Title": "[Newegg] ASUS Zenbook 15 Laptop: Ryzen 7 7735U, 16 GB RAM, 512 GB SSD, 1080p 15.6\" Display for $929.99 after $70 off",
+    "Url": "https://mac24h.vn/images/thumbnails/1604/1200/detailed/50/ge78_mac24h_msi.png?t=1692529123",
+    "Price": 3000,
+    "Instock": 2
+  },
+  {
+    "Id": 9,
+    "Title": "[Newegg] Lenovo IdeaPad Slim 5 16\" Laptop: Ryzen 7 7730U, 16 GB RAM, 512 GB SSD, FHD+ 16\" IPS Touch Display for $619.99 after $280 off",
+    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/ge78_mac24h_msi.png?t=1692529123",
+    "Price": 5300,
+    "Instock": 3
+  },
+  {
+    "Id": 10,
+    "Title": "[eBay, Price Drop] Lenovo Legion 5i Pro 16” Laptop: i7-13700HX, RTX 4060 (Max 140W), 16 GB RAM, 512 GB SSD, QHD+ 16” 165Hz IPS Display. Now: $1,194.99 After $475 Off",
+    "Url": "https://mac24h.vn/images/thumbnails/1604/1200/detailed/50/ge78_mac24h_msi.png?t=1692529123",
+    "Price": 2100,
+    "Instock": 2
+  },
+  {
+    "Id": 11,
+    "Title": "(AMAZON) Acer Nitro 5 AN515-58-57Y8 Gaming Laptop | Intel Core i5-12500H | NVIDIA GeForce RTX 3050 Ti Laptop GPU | 15.6\" FHD 144Hz IPS Display | 16GB DDR4 | 512GB Gen 4 SSD | Killer Wi-Fi 6 | Backlit Keyboard - FOR $779 AFTER 13% OFF",
+    "Url": "https://mac24h.vn/images/thumbnails/1604/1200/detailed/50/ge78_mac24h_msi.png?t=1692529123",
+    "Price": 3000,
+    "Instock": 3
+  }
+]
