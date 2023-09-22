@@ -43,5 +43,22 @@ namespace LaptopStore.Controllers
             }
             return Ok(laptop);
         }
+
+        [HttpPost]
+        [ProducesResponseType(204)]
+        public IActionResult UpdateLaptop([FromBody] List<Laptop> updateLaptops)
+        {
+            if (updateLaptops == null)
+            {
+                return NoContent();
+            }
+            var updatedLaptops = _laptopService.UpdateLaptop(updateLaptops);
+            if (!updatedLaptops)
+            {
+                ModelState.AddModelError("","Something wrong when updating laptop");
+                return StatusCode(500, ModelState);
+            }
+            return NoContent();
+        }
     }
 }

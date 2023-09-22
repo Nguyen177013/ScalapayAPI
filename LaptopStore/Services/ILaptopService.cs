@@ -6,6 +6,6 @@ namespace LaptopStore.Services
     {
         List<Laptop> GetLaptops();
         Laptop GetLaptop(int id);
-        bool UpdateLaptop(int id);
+        bool UpdateLaptop(List<Laptop> laptop);
     }
 }

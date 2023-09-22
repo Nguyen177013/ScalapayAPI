@@ -5,7 +5,8 @@ namespace LaptopStore.Services
 {
     public class LaptopService : ILaptopService
     {
-        private ListLaptop laptops = new ListLaptop();
+        private static ListLaptop laptopData = new ListLaptop();
+        private static List<Laptop> _laptops = laptopData.GetLaptops();
         public Laptop GetLaptop(int id)
         {
             Laptop laptop = this.GetLaptops().Where(l => l.Id == id).FirstOrDefault();
@@ -18,12 +19,21 @@ namespace LaptopStore.Services
 
         public List<Laptop> GetLaptops()
         {
-            return laptops.GetLaptops();
+            return _laptops;
         }
 
-        public bool UpdateLaptop(int id)
+        public bool UpdateLaptop(List<Laptop> laptopsAfter)
         {
-            throw new NotImplementedException();
+            foreach (var item in laptopsAfter)
+            {
+                Laptop laptop = GetLaptop(item.Id);
+                if (laptop == null)
+                {
+                    return false;
+                }
+                laptop.Instock = item.Instock;
+            }
+            return true;
         }
     }
 }
