@@ -2,78 +2,111 @@
   {
     "Id": 1,
     "Title": "[eBay] ASUS - 14\" Chromebook - AMD Ryzen 3 7320C CPU- 8GB RAM - 128 GB SSD -14\" FHD display, Wi-Fi 6 with @220 off, for $279!",
-    "Url": "https://bizweb.dktcdn.net/thumb/large/100/372/934/products/z4689293971134-66aee887ccd126cf3f069a24ad904d5a.jpg?v=1694587231757",
     "Price": 3000,
-    "Instock": 3
+    "Instock": 3,
+    "DetailImages": [ "https://m.media-amazon.com/images/I/71XmfT2FxUL._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/71XmfT2FxUL._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/71XK2mB4X4L._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/71EeKk2kS7L._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/719v2vun5PL._AC_SX466_.jpg" ],
+    "CPU": "AMD Ryzen 3-7320C",
+    "Memory": "8GB DDR4 Bus 3200MHz",
+    "SSD": "128GB M.2 PCIe NVMe Solid State Drive",
+    "VGA": "AMD R-Series SOC"
   },
   {
     "Id": 2,
     "Title": "[Walmart] Acer Predator Helios 16 PH16-71-948L; 16\" WQXGA (2560 x 1600) IPS 240Hz NVIDIA G-SYNC 500 nits display, Intel i9-13900HX CPU, NVIDIA RTX 4080 (Max 175W) Graphics, 32GB DDR5 RAM, 1TB SSD, Win11 Home. Now: $2,299.99 After $449 Off",
-    "Url": "https://laptop123.com.vn/index.php?t=ajax&p=tthumb&src=aHR0cHM6Ly9sYXB0b3AxMjMuY29tLnZuL3VwbG9hZC9wcm9kdWN0L2xlbm92by1sZWdpb24tNS1wcm8tMTZhcmg3aC14YW0ucG5n&w=400&h=350&zc=2",
     "Price": 3500,
-    "Instock": 2
+    "Instock": 2,
+    "DetailImages": [ "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-on-wallpaper-black-01-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-wallpaper-black-02-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-wallpaper-black-02-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-wallpaper-black-04-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-on-black-05-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg" ],
+    "CPU": "Core™ i9-13900HX",
+    "Memory": "32 GB DDR5 SDRAM",
+    "SSD": "1 TB PCIe NVMe",
+    "VGA": "GeForce® RTX™ 4080"
   },
   {
     "Id": 3,
     "Title": "[Walmart] Acer Nitro 16 AN16-41; AMD Ryzen 7 7735HS CPU, Nvidia GeForce RTX 4070 GPU - 16 GB DDR5 RAM - 512 GB SSD - 16\" 2560 x 1600 (WQXGA) 165 Hz IPS display ,Win 11 Home. Now: $1,299.99 After $200 Off",
-    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/IMG_3080_jd4r-nc.png?t=1691938768",
-    "Price": 3000,
-    "Instock": 6
+    "Price": 2500,
+    "Instock": 6,
+    "DetailImages": [ "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500", "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500", "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41-2_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500", "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41-2_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500" ],
+    "CPU": "AMD Ryzen 7 7735HS",
+    "Memory": "16 GB DDR5 RAM",
+    "SSD": "512 GB SSD",
+    "VGA": "GeForce® RTX™ 4070"
   },
   {
     "Id": 4,
     "Title": "[HP Store] (Customized) HP OMEN 16: 16.1\" QHD (2560 x 1440) 16:9, 240Hz, 300-Nits, IPS Display, Ryzen 7 7840HS, RTX 4070, 32GB DDR5, 1TB SSD, Windows 11 Home. Now: $1,475.99 After applying coupon code: \"10GAMER2023\" at checkout.",
-    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/ASUS_ROG15.png?t=1691840104",
-    "Price": 4000,
-    "Instock": 6
+    "Price": 3100,
+    "Instock": 2,
+    "DetailImages": [ "https://laptopre.vn/upload/picture/picture-01685767909.jpg", "https://laptopre.vn/upload/picture/picture-11685767909.jpg", "https://laptopre.vn/upload/picture/picture-21685767909.jpg", "https://laptopre.vn/upload/picture/picture-31685767909.jpg", "https://laptopre.vn/upload/picture/picture-41685767909.jpg" ],
+    "CPU": "Intel® Core™ i7-12700H",
+    "Memory": "16GB DDR5 4800 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "NVIDIA GeForce RTX 3070"
   },
   {
     "Id": 5,
-    "Title": "(Amazon) MSI Thin GF63 Gaming Laptop: Intel Core i5-12450H GeForce RTX 2050, 15.6\" FHD, 144Hz, 8GB DDR4, 512GB NVMe SSD, Type-C USB 3.2 Gen 1, Cooler Boost 5, Win 11 Home: Black 12UCX-484US Price: $621.42 Save: 11%",
-    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/asus_g14_1.png?t=1691220991",
-    "Price": 1200,
-    "Instock": 1
+    "Title": "Laptop Gaming MSI Katana 15 B13VEK 1205VN: Intel Core i5-12450H GeForce RTX 2050, 15.6\" FHD, 144Hz, 8GB DDR4, 512GB NVMe SSD, Type-C USB 3.2 Gen 1, Cooler Boost 5, Win 11 Home: Black 12UCX-484US Price: $621.42 Save: 11%",
+    "Price": 1800,
+    "Instock": 1,
+    "DetailImages": [ "https://product.hstatic.net/200000722513/product/1024__4__42c01952de8e4e43ac3029e34aa6eadc_091bcf24e454444fa5d9a2f1efc53e51_master.png", "https://product.hstatic.net/200000722513/product/1024__2__6ece0ffd6a724f6fbfd68c9fe33546c9_dc02f7e69c274db39f7fa5ead4014ac1_master.png", "https://product.hstatic.net/200000722513/product/1024__1__841810c933b94944a38b88cf7475af65_bb4ddc731b974805b8c106fec73a0c7e_master.png", "https://product.hstatic.net/200000722513/product/1024__3__4df5a136ad064684aeb8d2b1ce98ffc3_f95f98f7bda14cc6af1f43ce5a625680_master.png", "https://product.hstatic.net/200000722513/product/1024_00531ddd5306464f86628fbe00a7874e_7eb5d6bd0381463ea7378027697164fe_master.png" ],
+    "CPU": "Intel® Core™ i5-12450H",
+    "Memory": "8GB DDR4 5200 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "NVIDIA GeForce RTX 2050"
   },
   {
     "Id": 6,
-    "Title": "[HP Store] HP Omen Gaming Laptop 16z-xf000; 16.1\", FHD (1920 x 1080), 165Hz, IPS, 300 Nits, AMD Ryzen™ 7 7840HS, NVIDIA® GeForce RTX™ 4060, 16GB DDR5, 512GB SSD, Windows 11 Home. Now: $1,092.49 After $477.50 Off + Using Coupon Code: 5GAMER2023.",
-    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/acer_nitro_2023_5jve-s0.png?t=1695122703",
-    "Price": 3000,
-    "Instock": 1
-  },
-  {
-    "Id": 7,
-    "Title": "[eBay] Certified Refurbished Acer Nitro 17 Gaming Laptop: 17.3\" QHD (2560x1440) 16:9, 165Hz 3ms, 300 Nits, 100% sRGB, IPS Display, Intel i7-13700H, RTX 4060, 16GB DDR5, 1TB SSD, Windows 11 Home. Now: $999.99 After $600 Off + \"2 year warranty by Allstate\".",
-    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/80667827-8F73-4A62-A591-F3E1C64F750B.png?t=1686126141",
-    "Price": 1600,
-    "Instock": 0
+    "Title": "[HP Store] HP Omen Gaming Laptop 16z-xf000; 16.1\", FHD (1920 x 1080), 165Hz, IPS, 300 Nits, AMD Ryzen™ 7 7840HS, NVIDIA® GeForce RTX™ 4060, 16GB DDR5, 512GB SSD, Windows 11 Home.",
+    "Price": 2300,
+    "Instock": 1,
+    "DetailImages": [ "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524120.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08531919.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524102.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524048.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524030.png" ],
+    "CPU": "Intel® Core™ i7-12700H",
+    "Memory": "16GB DDR5 4800 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "NVIDIA GeForce RTX 4060"
   },
   {
     "Id": 8,
-    "Title": "[Newegg] ASUS Zenbook 15 Laptop: Ryzen 7 7735U, 16 GB RAM, 512 GB SSD, 1080p 15.6\" Display for $929.99 after $70 off",
-    "Url": "https://mac24h.vn/images/thumbnails/1604/1200/detailed/50/ge78_mac24h_msi.png?t=1692529123",
-    "Price": 3000,
-    "Instock": 2
+    "Title": "ASUS Zenbook 15 Laptop: Ryzen 7 7735U, 16 GB RAM, 512 GB SSD, 1080p 15.6",
+    "Price": 1200,
+    "Instock": 1,
+    "DetailImages": [ "https://laptop88.vn/media/product/4869_ux534ft_a9047t__3_.png", "https://laptop88.vn/media/product/4869_ux534ft_a9047t__2_.png" ],
+    "CPU": "Ryzen 7 7735U",
+    "Memory": "16GB DDR4 4200 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "AMD Radeon Graphics"
   },
   {
     "Id": 9,
-    "Title": "[Newegg] Lenovo IdeaPad Slim 5 16\" Laptop: Ryzen 7 7730U, 16 GB RAM, 512 GB SSD, FHD+ 16\" IPS Touch Display for $619.99 after $280 off",
-    "Url": "https://mac24h.vn/images/thumbnails/350/350/detailed/50/ge78_mac24h_msi.png?t=1692529123",
+    "Title": "Lenovo IdeaPad Slim 5 16\" Laptop: Ryzen 7 7730U, 16 GB RAM, 512 GB SSD, FHD+ 16\"",
     "Price": 5300,
-    "Instock": 3
+    "Instock": 0,
+    "DetailImages": [ "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct1_06_4f6abb6679b24e7bb900ec22d337ac4c_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct1_05_7a9b79307c0547c6851eb8f86d8832f8_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct2_08_913f30b59d0a47d7a0e362c934fb82ec_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct2_09_7d3b4c9077b849dc975199f6e45cb376_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct2_11_c7e469d4d94a4f55b42b8d48daa2a0d3_master.png" ],
+    "CPU": "Ryzen 7 7730U,",
+    "Memory": "16GB DDR4 4800 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "AMD Radeon Graphics"
   },
   {
     "Id": 10,
-    "Title": "[eBay, Price Drop] Lenovo Legion 5i Pro 16” Laptop: i7-13700HX, RTX 4060 (Max 140W), 16 GB RAM, 512 GB SSD, QHD+ 16” 165Hz IPS Display. Now: $1,194.99 After $475 Off",
-    "Url": "https://mac24h.vn/images/thumbnails/1604/1200/detailed/50/ge78_mac24h_msi.png?t=1692529123",
-    "Price": 2100,
-    "Instock": 2
+    "Title": "Lenovo Legion 5i Pro 16” Laptop: i7-13700HX, RTX 4060 (Max 140W), 16 GB RAM, 512 GB SSD, QHD+ 16” 165Hz IPS Display.",
+    "Price": 2900,
+    "Instock": 2,
+    "DetailImages": [ "https://laptopphuocdat.com/wp-content/uploads/2022/10/1-300x300.jpg", "https://laptopphuocdat.com/wp-content/uploads/2022/10/3-300x300.jpg", "https://laptopphuocdat.com/wp-content/uploads/2022/10/5-300x300.jpg", "https://laptopphuocdat.com/wp-content/uploads/2022/10/6-300x300.jpg"],
+    "CPU": "Intel® Core™ i7-13700HX",
+    "Memory": "16GB DDR5 4800 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "NVIDIA GeForce RTX 4060"
   },
   {
     "Id": 11,
-    "Title": "(AMAZON) Acer Nitro 5 AN515-58-57Y8 Gaming Laptop | Intel Core i5-12500H | NVIDIA GeForce RTX 3050 Ti Laptop GPU | 15.6\" FHD 144Hz IPS Display | 16GB DDR4 | 512GB Gen 4 SSD | Killer Wi-Fi 6 | Backlit Keyboard - FOR $779 AFTER 13% OFF",
-    "Url": "https://mac24h.vn/images/thumbnails/1604/1200/detailed/50/ge78_mac24h_msi.png?t=1692529123",
+    "Title": "Acer Nitro 5 AN515-58-57Y8 Gaming Laptop | Intel Core i5-12500H | NVIDIA GeForce RTX 3050 Ti Laptop GPU | 15.6\" FHD 144Hz IPS Display | 16GB DDR4 | 512GB Gen 4 SSD | Killer Wi-Fi 6 ",
     "Price": 3000,
-    "Instock": 3
+    "Instock": 3,
+    "DetailImages": [ "https://m.media-amazon.com/images/I/71ctRE34RuL._AC_SX679_.jpg", "https://p-vn.ipricegroup.com/uploaded_32794169da46da843423a96b0a59c153.jpg", "https://p-vn.ipricegroup.com/uploaded_f3577e969e4d45b057e84b039db79636.jpg", "https://p-vn.ipricegroup.com/uploaded_6ac2d2f9de2afb833a775ac684774461.jpg", "https://p-vn.ipricegroup.com/uploaded_180fae6dadfdda62e453da694560e34d.jpg" ],
+    "CPU": "Intel® Core™ i5-12500H",
+    "Memory": "16GB DDR4 4800 MHz",
+    "SSD": "512GB PCIe NVMe",
+    "VGA": "NVIDIA GeForce RTX 3050 Ti"
   }
 ]
