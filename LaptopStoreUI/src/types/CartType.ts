@@ -1,5 +1,5 @@
 type cartItem = {
-    gtin: string,
+    gtin: number,
     quantity: number,
     name: string,
     category: string,

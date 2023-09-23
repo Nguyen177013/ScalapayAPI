@@ -1,15 +1,34 @@
-import { Button, Card, Carousel, Col, Image, Layout, Row } from "antd";
-import { useLoaderData } from "react-router-dom";
+import { Button, Card, Col, Image, Row } from "antd";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import useCartContext from "../hooks/useCart";
+import { setCart } from "../context/cart_context/action";
 const DetailPage = () => {
   const laptop = useLoaderData() as laptopType;
+  const navigate = useNavigate();
   const [imageUrl, setImageUrl] = useState<string>(laptop.detailImages[0]);
-  const handleClick = (url : string)=>{
+  const handleClick = (url: string) => {
     setImageUrl(url);
-  }
+  };
+  const { dispatch } = useCartContext();
+  const handleAddCart = (laptop: laptopType) => {
+    const cart: cartItem = {
+      gtin: laptop.id,
+      name: laptop.title,
+      category: "Laptop",
+      price: {
+        amount: laptop.price,
+        currency: "EUR",
+      },
+      quantity: 1,
+      sku: laptop.id,
+    };
+    dispatch(setCart(cart));
+    navigate("/");
+  };
   return (
     <>
-      <Row gutter={[8, 8]} style={{ margin:"80px 0" }}>
+      <Row gutter={[8, 8]} style={{ margin: "80px 0" }}>
         <Col span={8}>
           <div
             style={{ display: "flex", flexDirection: "column", height: "100%" }}
@@ -24,9 +43,18 @@ const DetailPage = () => {
             >
               <Image src={imageUrl} width={250} height={150} />
             </div>
-            <div style={{textAlign:"center"}}>
-              {laptop.detailImages.map((url) => (
-                <div style={{ width: 70, height: 70, cursor: "pointer", display:"inline-block" }} onClick={()=>handleClick(url)}>
+            <div style={{ textAlign: "center" }}>
+              {laptop.detailImages.map((url, index) => (
+                <div
+                  style={{
+                    width: 70,
+                    height: 70,
+                    cursor: "pointer",
+                    display: "inline-block",
+                  }}
+                  key={index}
+                  onClick={() => handleClick(url)}
+                >
                   <img
                     src={url}
                     alt=""
@@ -58,6 +86,7 @@ const DetailPage = () => {
               height: 38,
               marginTop: "10px",
             }}
+            onClick={() => handleAddCart(laptop)}
           >
             Add to cart
           </Button>

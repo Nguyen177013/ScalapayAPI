@@ -1,9 +1,12 @@
 import { Col, Input, Layout, Row } from "antd";
 import { SearchOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
+import useCartContext from "../hooks/useCart";
 
 const Header = () => {
   const navigate = useNavigate();
+  const {state} = useCartContext();
+  console.log(state);
   function handleClick(){
     navigate(`/`);
   }
@@ -49,7 +52,7 @@ const Header = () => {
                   textAlign: "center",
                 }}
               >
-                10
+                {state.length}
               </span>
             </div>
           </Col>
