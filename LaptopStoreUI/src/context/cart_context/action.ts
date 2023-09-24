@@ -8,7 +8,7 @@ export function setCart(payload : cartItem){
 }
 export function updateCart(payload : cartItem){
     return {
-        type: constants.ADD_CART,
+        type: constants.UPDATE_CART,
         payload
     }
 }

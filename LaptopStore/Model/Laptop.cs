@@ -10,7 +10,6 @@
         public string CPU { get; set; }
         public string Memory { get; set; }
         public string SSD { get; set; }
-
         public string VGA { get; set; }
     }
 }

@@ -32,3 +32,7 @@ C:\Users\HP\source\repos\LaptopStore\LaptopStore\obj\Debug\net6.0\LaptopStore.ge
 C:\Users\HP\source\repos\LaptopStore\LaptopStore\obj\Debug\net6.0\ref\LaptopStore.dll
 C:\Users\HP\source\repos\LaptopStore\LaptopStore\bin\Debug\net6.0\StaticData\data.json
 C:\Users\HP\source\repos\LaptopStore\LaptopStore\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HP\source\repos\LaptopStore\LaptopStore\bin\Debug\net6.0\RestSharp.dll
+C:\Users\HP\source\repos\LaptopStore\LaptopStore\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\HP\source\repos\LaptopStore\LaptopStore\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\HP\source\repos\LaptopStore\LaptopStore\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

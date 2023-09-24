@@ -1,33 +1,41 @@
-import { Button, Card, Col, Image, Row } from "antd";
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { Button, Card, Col, Image, Row, notification } from "antd";
+import { useLoaderData } from "react-router-dom";
 import { useState } from "react";
 import useCartContext from "../hooks/useCart";
 import { setCart } from "../context/cart_context/action";
 const DetailPage = () => {
   const laptop = useLoaderData() as laptopType;
-  const navigate = useNavigate();
   const [imageUrl, setImageUrl] = useState<string>(laptop.detailImages[0]);
   const handleClick = (url: string) => {
     setImageUrl(url);
   };
   const { dispatch } = useCartContext();
+  const [api, contextHolder] = notification.useNotification();
+  const openNotification = (type: NotificationType, message: string) => {
+    api[type]({
+      message: "Add item into cart",
+      description: message,
+    });
+  };
   const handleAddCart = (laptop: laptopType) => {
     const cart: cartItem = {
-      gtin: laptop.id,
+      gtin: laptop.id.toString(),
       name: laptop.title,
       category: "Laptop",
       price: {
-        amount: laptop.price,
+        amount: laptop.price.toString(),
         currency: "EUR",
       },
       quantity: 1,
-      sku: laptop.id,
+      sku: laptop.id.toString(),
+      imageUrl: laptop.detailImages[0],
     };
     dispatch(setCart(cart));
-    navigate("/");
+    openNotification("success", "Item successfully added to cart");
   };
   return (
     <>
+      {contextHolder}
       <Row gutter={[8, 8]} style={{ margin: "80px 0" }}>
         <Col span={8}>
           <div
@@ -77,19 +85,35 @@ const DetailPage = () => {
               Status: {laptop.instock > 0 ? "On Sale" : "Sold Out"}
             </p>
           </Card>
-          <Button
-            type="primary"
-            style={{
-              width: "100%",
-              fontSize: "18px",
-              fontWeight: "bold",
-              height: 38,
-              marginTop: "10px",
-            }}
-            onClick={() => handleAddCart(laptop)}
-          >
-            Add to cart
-          </Button>
+          {laptop.instock > 0 ? (
+            <Button
+              type="primary"
+              style={{
+                width: "100%",
+                fontSize: "18px",
+                fontWeight: "bold",
+                height: 38,
+                marginTop: "10px",
+              }}
+              onClick={() => handleAddCart(laptop)}
+            >
+              Add to cart
+            </Button>
+          ) : (
+            <Button
+              type="primary"
+              style={{
+                width: "100%",
+                fontSize: "18px",
+                fontWeight: "bold",
+                height: 38,
+                marginTop: "10px",
+              }}
+              disabled={true}
+            >
+              Item out of stock
+            </Button>
+          )}
         </Col>
       </Row>
     </>

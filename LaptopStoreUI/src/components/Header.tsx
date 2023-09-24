@@ -5,10 +5,9 @@ import useCartContext from "../hooks/useCart";
 
 const Header = () => {
   const navigate = useNavigate();
-  const {state} = useCartContext();
-  console.log(state);
-  function handleClick(){
-    navigate(`/`);
+  const { state } = useCartContext();
+  function handleClick(url: string) {
+    navigate(url);
   }
   return (
     <Layout>
@@ -21,20 +20,26 @@ const Header = () => {
         }}
       >
         <Row>
-          <Col span={8} onClick={handleClick} style={{cursor:"pointer"}}><h2>Laptop Store</h2></Col>
+          <Col
+            span={8}
+            onClick={() => handleClick("/")}
+            style={{ cursor: "pointer" }}
+          >
+            <h2>Laptop Store</h2>
+          </Col>
           <Col span={8}>
             <Input.Search
               prefix={<SearchOutlined style={{ verticalAlign: "middle" }} />}
               placeholder="Find your something..."
             />
           </Col>
-          <Col span={8}>
+          <Col span={8} onClick={() => handleClick("/cart")}>
             <div
               style={{
                 float: "right",
                 position: "relative",
                 paddingRight: "10px",
-                cursor:"pointer"
+                cursor: "pointer",
               }}
             >
               <ShoppingCartOutlined style={{ fontSize: "30px" }} />

@@ -1,6 +1,4 @@
 import {
-  BrowserRouter,
-  Routes,
   Route,
   createBrowserRouter,
   createRoutesFromElements,
@@ -11,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import HomeLayout from "./components/Layout";
 import "../public/css/style.css";
 import DetailPage, { laptopLoader } from "./pages/DetailPage";
+import CartPage from "./pages/CartPage";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -21,6 +20,7 @@ const router = createBrowserRouter(
           element={<DetailPage />}
           loader={laptopLoader}
         />
+        <Route path="cart" element={<CartPage />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </>
@@ -29,7 +29,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <div>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </div>
   );
 }

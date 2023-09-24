@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "Title": "[eBay] ASUS - 14\" Chromebook - AMD Ryzen 3 7320C CPU- 8GB RAM - 128 GB SSD -14\" FHD display, Wi-Fi 6 with @220 off, for $279!",
-    "Price": 3000,
+    "Price": 30,
     "Instock": 3,
     "DetailImages": [ "https://m.media-amazon.com/images/I/71XmfT2FxUL._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/71XmfT2FxUL._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/71XK2mB4X4L._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/71EeKk2kS7L._AC_SX466_.jpg", "https://m.media-amazon.com/images/I/719v2vun5PL._AC_SX466_.jpg" ],
     "CPU": "AMD Ryzen 3-7320C",
@@ -13,7 +13,7 @@
   {
     "Id": 2,
     "Title": "[Walmart] Acer Predator Helios 16 PH16-71-948L; 16\" WQXGA (2560 x 1600) IPS 240Hz NVIDIA G-SYNC 500 nits display, Intel i9-13900HX CPU, NVIDIA RTX 4080 (Max 175W) Graphics, 32GB DDR5 RAM, 1TB SSD, Win11 Home. Now: $2,299.99 After $449 Off",
-    "Price": 3500,
+    "Price": 35,
     "Instock": 2,
     "DetailImages": [ "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-on-wallpaper-black-01-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-wallpaper-black-02-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-wallpaper-black-02-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-wallpaper-black-04-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg", "https://static-ecpa.acer.com/media/catalog/product/p/r/predator-helios-16-ph16-71-perkey-backlit-on-black-05-1000x1000_nh.qjsaa.002.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg" ],
     "CPU": "Core™ i9-13900HX",
@@ -24,7 +24,7 @@
   {
     "Id": 3,
     "Title": "[Walmart] Acer Nitro 16 AN16-41; AMD Ryzen 7 7735HS CPU, Nvidia GeForce RTX 4070 GPU - 16 GB DDR5 RAM - 512 GB SSD - 16\" 2560 x 1600 (WQXGA) 165 Hz IPS display ,Win 11 Home. Now: $1,299.99 After $200 Off",
-    "Price": 2500,
+    "Price": 25,
     "Instock": 6,
     "DetailImages": [ "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500", "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500", "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41-2_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500", "https://static-ecapac.acer.com/media/catalog/product/a/n/an16-41-2_nh.qkdsg.002_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500" ],
     "CPU": "AMD Ryzen 7 7735HS",
@@ -35,7 +35,7 @@
   {
     "Id": 4,
     "Title": "[HP Store] (Customized) HP OMEN 16: 16.1\" QHD (2560 x 1440) 16:9, 240Hz, 300-Nits, IPS Display, Ryzen 7 7840HS, RTX 4070, 32GB DDR5, 1TB SSD, Windows 11 Home. Now: $1,475.99 After applying coupon code: \"10GAMER2023\" at checkout.",
-    "Price": 3100,
+    "Price": 31,
     "Instock": 2,
     "DetailImages": [ "https://laptopre.vn/upload/picture/picture-01685767909.jpg", "https://laptopre.vn/upload/picture/picture-11685767909.jpg", "https://laptopre.vn/upload/picture/picture-21685767909.jpg", "https://laptopre.vn/upload/picture/picture-31685767909.jpg", "https://laptopre.vn/upload/picture/picture-41685767909.jpg" ],
     "CPU": "Intel® Core™ i7-12700H",
@@ -46,7 +46,7 @@
   {
     "Id": 5,
     "Title": "Laptop Gaming MSI Katana 15 B13VEK 1205VN: Intel Core i5-12450H GeForce RTX 2050, 15.6\" FHD, 144Hz, 8GB DDR4, 512GB NVMe SSD, Type-C USB 3.2 Gen 1, Cooler Boost 5, Win 11 Home: Black 12UCX-484US Price: $621.42 Save: 11%",
-    "Price": 1800,
+    "Price": 18,
     "Instock": 1,
     "DetailImages": [ "https://product.hstatic.net/200000722513/product/1024__4__42c01952de8e4e43ac3029e34aa6eadc_091bcf24e454444fa5d9a2f1efc53e51_master.png", "https://product.hstatic.net/200000722513/product/1024__2__6ece0ffd6a724f6fbfd68c9fe33546c9_dc02f7e69c274db39f7fa5ead4014ac1_master.png", "https://product.hstatic.net/200000722513/product/1024__1__841810c933b94944a38b88cf7475af65_bb4ddc731b974805b8c106fec73a0c7e_master.png", "https://product.hstatic.net/200000722513/product/1024__3__4df5a136ad064684aeb8d2b1ce98ffc3_f95f98f7bda14cc6af1f43ce5a625680_master.png", "https://product.hstatic.net/200000722513/product/1024_00531ddd5306464f86628fbe00a7874e_7eb5d6bd0381463ea7378027697164fe_master.png" ],
     "CPU": "Intel® Core™ i5-12450H",
@@ -57,7 +57,7 @@
   {
     "Id": 6,
     "Title": "[HP Store] HP Omen Gaming Laptop 16z-xf000; 16.1\", FHD (1920 x 1080), 165Hz, IPS, 300 Nits, AMD Ryzen™ 7 7840HS, NVIDIA® GeForce RTX™ 4060, 16GB DDR5, 512GB SSD, Windows 11 Home.",
-    "Price": 2300,
+    "Price": 23,
     "Instock": 1,
     "DetailImages": [ "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524120.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08531919.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524102.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524048.png", "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08524030.png" ],
     "CPU": "Intel® Core™ i7-12700H",
@@ -68,7 +68,7 @@
   {
     "Id": 8,
     "Title": "ASUS Zenbook 15 Laptop: Ryzen 7 7735U, 16 GB RAM, 512 GB SSD, 1080p 15.6",
-    "Price": 1200,
+    "Price": 12,
     "Instock": 1,
     "DetailImages": [ "https://laptop88.vn/media/product/4869_ux534ft_a9047t__3_.png", "https://laptop88.vn/media/product/4869_ux534ft_a9047t__2_.png" ],
     "CPU": "Ryzen 7 7735U",
@@ -79,7 +79,7 @@
   {
     "Id": 9,
     "Title": "Lenovo IdeaPad Slim 5 16\" Laptop: Ryzen 7 7730U, 16 GB RAM, 512 GB SSD, FHD+ 16\"",
-    "Price": 5300,
+    "Price": 53,
     "Instock": 0,
     "DetailImages": [ "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct1_06_4f6abb6679b24e7bb900ec22d337ac4c_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct1_05_7a9b79307c0547c6851eb8f86d8832f8_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct2_08_913f30b59d0a47d7a0e362c934fb82ec_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct2_09_7d3b4c9077b849dc975199f6e45cb376_master.png", "https://product.hstatic.net/200000722513/product/ideapad_slim_5_16iah8_ct2_11_c7e469d4d94a4f55b42b8d48daa2a0d3_master.png" ],
     "CPU": "Ryzen 7 7730U,",
@@ -90,7 +90,7 @@
   {
     "Id": 10,
     "Title": "Lenovo Legion 5i Pro 16” Laptop: i7-13700HX, RTX 4060 (Max 140W), 16 GB RAM, 512 GB SSD, QHD+ 16” 165Hz IPS Display.",
-    "Price": 2900,
+    "Price": 29,
     "Instock": 2,
     "DetailImages": [ "https://laptopphuocdat.com/wp-content/uploads/2022/10/1-300x300.jpg", "https://laptopphuocdat.com/wp-content/uploads/2022/10/3-300x300.jpg", "https://laptopphuocdat.com/wp-content/uploads/2022/10/5-300x300.jpg", "https://laptopphuocdat.com/wp-content/uploads/2022/10/6-300x300.jpg"],
     "CPU": "Intel® Core™ i7-13700HX",
@@ -101,7 +101,7 @@
   {
     "Id": 11,
     "Title": "Acer Nitro 5 AN515-58-57Y8 Gaming Laptop | Intel Core i5-12500H | NVIDIA GeForce RTX 3050 Ti Laptop GPU | 15.6\" FHD 144Hz IPS Display | 16GB DDR4 | 512GB Gen 4 SSD | Killer Wi-Fi 6 ",
-    "Price": 3000,
+    "Price": 30,
     "Instock": 3,
     "DetailImages": [ "https://m.media-amazon.com/images/I/71ctRE34RuL._AC_SX679_.jpg", "https://p-vn.ipricegroup.com/uploaded_32794169da46da843423a96b0a59c153.jpg", "https://p-vn.ipricegroup.com/uploaded_f3577e969e4d45b057e84b039db79636.jpg", "https://p-vn.ipricegroup.com/uploaded_6ac2d2f9de2afb833a775ac684774461.jpg", "https://p-vn.ipricegroup.com/uploaded_180fae6dadfdda62e453da694560e34d.jpg" ],
     "CPU": "Intel® Core™ i5-12500H",

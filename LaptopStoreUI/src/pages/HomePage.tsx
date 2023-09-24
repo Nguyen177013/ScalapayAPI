@@ -22,7 +22,7 @@ const HomePage = () => {
       <Row gutter={[16, 16]}>
         {laptops.length == 0 ? <p>Please wait...</p> : ""}
         {laptops.map((laptop) => {
-          let price = `Price:  $${laptop.price}`;
+          let price = `Price:  $${laptop.price}.00`;
           return (
             <Col span={6} key={laptop.id} onClick={()=>handleClick(laptop.id)}>
               <Card

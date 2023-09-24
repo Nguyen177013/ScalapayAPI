@@ -7,7 +7,6 @@ type contextType = {
 type Props = {
     children: React.ReactNode;
 }
-
 export const CartContext  = createContext<contextType | null>(null);
 const CartContextProvider = ({ children }: Props) => {
     const [state, dispatch] = useReducer(cartReducer, initialState);

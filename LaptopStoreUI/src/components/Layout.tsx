@@ -1,5 +1,4 @@
 import { Image } from "antd";
-import Nav from "./Nav";
 import { Outlet } from "react-router-dom";
 import { Content } from "antd/es/layout/layout";
 import Header from "./Header";
