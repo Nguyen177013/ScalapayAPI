@@ -76,7 +76,7 @@ const DetailPage = () => {
         <Col span={16}>
           <Card title={laptop.title}>
             <p style={{ fontSize: "20px" }}>
-              Price: <strong style={{ color: "red" }}> {laptop.price}$ </strong>
+              Price: <strong style={{ color: "red" }}> ${laptop.price}.00 </strong>
             </p>
             <p style={{ fontSize: "20px" }}>CPU: {laptop.cpu}</p>
             <p style={{ fontSize: "20px" }}>Ram: {laptop.memory}</p>

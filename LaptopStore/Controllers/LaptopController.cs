@@ -2,7 +2,7 @@
 using LaptopStore.Services;
 using Microsoft.AspNetCore.Mvc;
 using RestSharp;
-
+using System.Text.Json;
 
 namespace LaptopStore.Controllers
 {
@@ -57,23 +57,25 @@ namespace LaptopStore.Controllers
             var updatedLaptops = _laptopService.UpdateLaptop(updateLaptops);
             if (!updatedLaptops)
             {
-                ModelState.AddModelError("","Something wrong when updating laptop");
+                ModelState.AddModelError("", "Something wrong when updating laptop");
                 return StatusCode(500, ModelState);
             }
             return NoContent();
         }
         [HttpPost("redirect")]
-        public async Task<IActionResult> YourHttpGetMethod([FromBody] string jsonData)
+        public async Task<IActionResult> YourHttpGetMethod([FromBody] ScalapayAPI scalapayData)
         {
             try
             {
+                string json = JsonSerializer.Serialize(scalapayData);
                 var options = new RestClientOptions("https://integration.api.scalapay.com/v2/orders");
                 var client = new RestClient(options);
                 var request = new RestRequest("");
                 request.AddHeader("accept", "application/json");
                 request.AddHeader("Authorization", "Bearer qhtfs87hjnc12kkos");
-                request.AddJsonBody(jsonData, false);
+                request.AddJsonBody(json, false);
                 var response = await client.PostAsync(request);
+
 
                 // You can handle the response here
                 if (response.IsSuccessful)
@@ -89,6 +91,7 @@ namespace LaptopStore.Controllers
             }
             catch (Exception ex)
             {
+                string error = ex.Message;
                 return StatusCode(500, ex.Message);
             }
         }
